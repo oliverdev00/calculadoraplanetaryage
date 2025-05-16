@@ -22,6 +22,66 @@ body {
     align-items: center;
 }
 
-.container {
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffd3da;
+    font-size: 2.5rem;
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+label {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+input {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #2847fa;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.5s;
+}
+
+input{
+    padding: 0.8rem;
+}
+
+button:hover {
+    background: #a3daff;
+    transform: translateY(-2px);
+    color: #4d48b6;
+}
+
+    .container {
     width: 90%;
 }
